@@ -1,0 +1,46 @@
+@media (max-width: 600px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+a {
+    text-decoration: none;
+}
+#navbar {
+    background-color: darkblue;
+    padding: 20px;
+    width: 100vh;
+    position: fixed;
+}
+
+#navbar a {
+    color: white;
+}
+
+#welcome-section {
+    display: flex;
+    margin: 100px 0 30px;
+}
+
+#welcome-section h1 {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#projects {
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: darkblue;
+    padding: 40px;
+}
+
+#projects a {
+     color: white;
+}
